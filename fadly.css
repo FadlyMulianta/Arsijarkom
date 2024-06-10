@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    overscroll-behavior: none;
+}
+
 
 .pembuka{
     width: 100%;
@@ -27,10 +31,11 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e2e4e1;
+    backdrop-filter: blur(10px);
     z-index: 100;
     
 }
+
 
 
 .kucing{
@@ -83,9 +88,10 @@ nav a:hover{
 
 
 .foto{
-    width: 40%;
+    padding-top: 20%;
+    width: 43%;
     float: left;
-    padding-left: 10%;
+    padding-left: 15%;
     transition:  600ms ease-in-out;
 
 }
@@ -101,6 +107,7 @@ nav a:hover{
 }
 .isipropil h4{
     padding-left: 53%;
+    font-weight: lighter;
 }
 .isipropil h1 {
     padding-left: 53%;
@@ -172,15 +179,13 @@ nav a:hover{
 }
 .isimateri1{
     padding-top: 0%;
-    padding-bottom: 3%;
     padding-left: 15%;
     padding-right: 5%;
-
     font-size: 25px;
 }
 
 .isimateri1 h3 {
-    padding-top: 15%;
+    padding-top: 5%;
     font-style: italic;
     text-align: center ;
     font-size: 35px;
@@ -192,6 +197,7 @@ nav a:hover{
     text-align: center ;
     font-size: 20px;
     padding-right: 50%;
+    padding-bottom: 5%;
 }
 .link1{
     color: #9e5f1e;
@@ -199,6 +205,7 @@ nav a:hover{
     text-align: center;
 }
 .komputer{
+    padding-top: 10%;
     width: 40%;
     float: right;
 
@@ -207,7 +214,9 @@ nav a:hover{
 
 
 .isimateri2{
-    padding-top: 10%;
+    background-color: #e2e4e1;
+    padding-top: 5%;
+    
     padding-left: 5%;
     padding-right: 10%;
     padding-bottom: 3%;
@@ -226,8 +235,10 @@ nav a:hover{
     text-align: center ;
     font-size: 20px;
     padding-left: 50%;
+    padding-bottom: 5%;
 }
 .printer{
+    padding-top: 7%;
     width: 40%;
     float: left;
 }
@@ -249,7 +260,7 @@ nav a:hover{
 
 
 .isimateri3{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 3%;
     padding-left: 15%;
     padding-right: 5%;  
@@ -265,8 +276,10 @@ nav a:hover{
     text-align: center ;
     font-size: 20px;
     padding-right: 50%;
+    padding-bottom: 5%;
 }
 .telepon{
+    padding-top: 7%;
     width: 40%;
     float: right;
 }
@@ -285,7 +298,8 @@ nav a:hover{
 }
 
 .isimateri4{
-    padding-top: 15%;
+    background-color: #e2e4e1;
+    padding-top: 5%;
     padding-left: 5%;
     padding-right: 10%;
     padding-bottom: 3%;
@@ -304,8 +318,10 @@ nav a:hover{
     text-align: center ;
     font-size: 20px;
     padding-left: 50%;
+    padding-bottom: 5%;
 }
 .tele{
+    padding-top: 3%;
     width: 40%;
     float: left;
 }
@@ -320,7 +336,7 @@ nav a:hover{
 }
 
 .isimateri5{
-    padding-top: 15%;
+    padding-top: 5%;
     padding-bottom: 3%;
     padding-left: 15%;
     padding-right: 5%;  
@@ -336,8 +352,10 @@ nav a:hover{
     text-align: center ;
     font-size: 20px;
     padding-right: 50%;
+    padding-bottom: 5%;
 }
 .hp{
+    padding-top: 10%;
     width: 40%;
     float: right;
 }
@@ -349,11 +367,6 @@ nav a:hover{
     top: 665%;
     right: 7%;
 }
-
-
-
-
-
 
 
     
@@ -386,4 +399,199 @@ nav a:hover{
 }
 
 @media screen and (max-width: 770px){
+    .navbar{
+        font-size: 10px;
+        width: 300%;
+    }
+    .navbar nav a{
+        display: none;
+        font-size: 20px;
+    }
+    .nihao{
+        font-size: 100px;
+        width: 300%;
+
+    }
+    .kucing{
+        width: 2%;
+    }
+
+
+
+    .pembuka{
+        
+        font-size: 80px;
+        padding-top: 35%;
+        width: 300%;
+    }
+
+    .foto{
+        padding-top: 25%;
+        padding-left: 45%;
+        justify-content: center;
+        width: 255%;
+        padding-bottom: 25%;
+    }
+    
+    
+    .isipropil h4{
+        text-align: center;
+        padding-left: 0%;
+        font-size: 130px;
+        width: 300%;
+    }
+    .isipropil h1{
+        text-align: center;
+        padding-left: 0%;
+        font-size: 130px;
+        width: 300%;
+    }
+    .subisipropil{
+        font-size:80px;
+        text-align: center;
+        padding-left: 15%;
+        width: 300%;
+    }
+    #kontak{
+
+        width: 300%;
+    }
+
+    #kontak h1{
+        font-size: 80px;
+    }
+
+    .hub{
+        width: 15%;
+    }
+    .fb{
+        width: 15%;
+    }
+    .wa{
+        width: 15%;
+    }
+    .ig{
+        width: 15%;
+    }
+
+
+    .judulmateri{
+        font-size: 60px;
+        width: 300%;
+    }
+
+    .komputer{
+        padding-left: 50%;
+        width: 300%;
+        float: left;
+    }
+    .printer{
+        padding-left: 50%;
+        width: 300%;
+        float: left;
+    }
+
+    .telepon{
+        padding-top: 20%;
+        padding-left: 50%;
+        width: 300%;
+        float: left;
+    }
+    .tele{
+        padding-left: 50%;
+        width: 300%;
+        float: left;
+    }
+    .hp{
+        padding-left: 50%;
+        width: 300%;
+        float: left;
+        
+    }
+
+    .isimateri1 h3 {
+        width: 300%;
+        text-align: center;
+        font-size:150px;
+        margin-right:100%;
+        padding-left: 100%;
+    }
+    .isimateri1 p {
+        padding-left: 100%;
+        text-align: center;
+        font-size: 50px;
+        width: 300%;
+
+
+    }
+    
+    .isimateri2{
+        background-color: white;
+    }
+
+    .isimateri2 h3 {
+        width: 300%;
+        padding-left: 50%;
+        text-align: center;
+        font-size:150px;
+    }
+    .isimateri2 p {
+        padding-right: 50%;
+        text-align: center;
+        padding-left: 100%;
+        font-size: 50px;
+        width: 300%;
+
+    }
+
+    .isimateri3 h3 {
+        width: 300%;
+        text-align: center;
+        font-size:150px;
+        margin-right:100%;
+        padding-left: 100%;
+    }
+    .isimateri3 p {
+        padding-left: 100%;
+        text-align: center;
+        font-size: 50px;
+        width: 300%;
+
+
+    }
+
+    .isimateri4{
+        background-color: white;
+
+    }
+    .isimateri4 h3 {
+        width: 300%;
+        padding-left: 50%;
+        text-align: center;
+        font-size:150px;
+    }
+    .isimateri4 p {
+        padding-right: 50%;
+        text-align: center;
+        padding-left: 100%;
+        font-size: 50px;
+        width: 300%;
+    }
+    
+
+    .isimateri5 h3 {
+        width: 300%;
+        text-align: center;
+        font-size:150px;
+        margin-right:100%;
+        padding-left: 100%;
+    }
+    .isimateri5 p {
+        padding-left: 100%;
+        text-align: center;
+        font-size: 50px;
+        width: 300%;
+
+    }
+
 }
